@@ -12,7 +12,6 @@
 # Copyright (c) 1997-1998 by Fredrik Lundh
 #
 # See the README file for information on usage and redistribution.
-#
 
 
 import os

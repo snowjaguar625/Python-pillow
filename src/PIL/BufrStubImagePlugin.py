@@ -13,7 +13,6 @@ from . import Image, ImageFile
 
 _handler = None
 
-
 def register_handler(handler):
     """
     Install application-specific BUFR image handler.

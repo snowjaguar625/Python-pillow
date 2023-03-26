@@ -30,7 +30,6 @@ import tempfile
 from . import Image, ImageFile
 from ._binary import i32le as i32
 
-#
 # --------------------------------------------------------------------
 
 split = re.compile(r"^%%([^:]*):[ \t]*(.*)[ \t]*$")

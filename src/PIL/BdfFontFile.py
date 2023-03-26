@@ -21,7 +21,6 @@
 Parse X Bitmap Distribution Format (BDF)
 """
 
-
 from . import FontFile, Image
 
 bdf_slant = {
