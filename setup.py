@@ -18,13 +18,11 @@ import warnings
 from setuptools import Extension, setup
 from setuptools.command.build_ext import build_ext
 
-
 def get_version():
     version_file = "src/PIL/_version.py"
     with open(version_file, encoding="utf-8") as f:
         exec(compile(f.read(), version_file, "exec"))
     return locals()["__version__"]
-
 
 PILLOW_VERSION = get_version()
 FREETYPE_ROOT = None
@@ -50,7 +48,6 @@ if sys.platform == "win32" and sys.version_info >= (3, 12):
             RuntimeWarning,
         )
     )
-
 
 _IMAGING = ("decode", "encode", "map", "display", "outline", "path")
 
